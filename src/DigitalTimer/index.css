@@ -1,0 +1,117 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.main-container{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.heading{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "Roboto";
+}
+.timer-image{
+    height: 240px;
+    width: 350px;
+    border-radius: 5px;
+}
+
+.flex-container1{
+    display: flex;
+    flex-direction: row;
+}
+
+.timer-box{
+    margin-top: 40px;
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: white;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.time{
+    color: black;
+    font-weight: 600;
+    font-size: 38px;
+}
+
+.pause-icon-image{
+    height: 38px;
+    width: 38px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.icons-container{
+    margin-top: 45px;
+}
+
+.timer-limit-container{
+    margin-top: 40px;
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.limits{
+    color: black;
+    font-size: 38px;
+    font-weight: 600;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+.limit-value{
+    color: black;
+    font-size: 38px;
+    font-weight: 600;
+    margin-top: 0px;
+}
+
+
+@media screen and (min-width:577px) {
+    .main-container{
+        align-items: none;
+        flex-direction: none;
+        padding: 20px;
+    }
+
+    .flex-container-bigScreen{
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+    }
+    .timer-limit-container{
+        margin-left: 0px;
+    }
+    .heading{
+        margin-top: 40px;
+        font-size: 50px;
+    }
+    .timer-image{
+        height: 260px;
+        width: 380px;
+        border-radius: 5px;
+    }
+    .timer-box{
+        margin-right: 40px;
+    }
+}
